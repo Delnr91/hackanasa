@@ -1,0 +1,22 @@
+# OS & Editor files
+.DS_Store
+Thumbs.db
+*.swp
+.vscode/
+.idea/
+
+# Python / Data scratch (for future hackathon weekend)
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+*.tif
+*.tiff
+*.nc
+*.hdf
+
+# Web / Node (for future hackathon weekend)
+node_modules/
+dist/
+.next/
