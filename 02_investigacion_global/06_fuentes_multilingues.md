@@ -43,3 +43,7 @@ Cada vez que consultemos un paper en cualquier idioma, extraemos siempre la mism
 - `matched_parameters` (ej. mineralogía XRD, $T_{\text{min}}$, profundidad de hielo, diámetro de tubo)
 - `unmatched_limitations` (ej. lluvia estacional, vegetación dispersa)
 - `citation` (autor, año, idioma original, DOI / URL abierta)
+
+---
+
+> 🔗 **Profundización Rusa, China y Japonesa + Simulantes Geotécnicos:** Consulta [`10_inteligencia_rusia_china_japon_simuladores.md`](10_inteligencia_rusia_china_japon_simuladores.md) para el diccionario técnico traducido término a término (`ГЕОХИ РАН ВИ-75 / ВИ-Т / ВИ-М1`, `ИКИ РАН LEND/FREND`, `Луна-27`, `嫦娥七号`, `NAO-1`, `TJ-M1`, `月壤砖`, `LUPEX`) y las bases abiertas `arXiv:2602.03829` + `NIST 3D Simulants` + `NASA 3D glTF`.

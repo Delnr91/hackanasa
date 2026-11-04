@@ -12,7 +12,7 @@
 
 *Repositorio estratégico de investigación científica, estructuración McKinsey, catálogo global de APIs espaciales abiertas y cartera de **9 propuestas de solución** diseñado para alinear al equipo antes de las 48 horas de construcción.*
 
-[**🎯 El Desafío**](00_desafio/01_brief_desafio.md) · [**🧠 Estructura McKinsey**](01_mckinsey/01_metodo_mckinsey.md) · [**🚀 Las 9 Propuestas**](04_propuestas/01_propuestas_solucion.md) · [**🇨🇱 Brechas Chile & Global**](02_investigacion_global/08_brechas_chile_y_oportunidades_globales.md) · [**🔌 APIs Multi-Agencia**](02_investigacion_global/09_apis_multiagencia_recursos_construccion.md) · [**⚠️ Desafíos Globales**](05_plan_ejecucion/04_desafios_globales_esperados.md)
+[**🎯 El Desafío**](00_desafio/01_brief_desafio.md) · [**🚀 Las 9 Propuestas**](04_propuestas/01_propuestas_solucion.md) · [**🎨 Nombre, Logo & UX Local**](03_lluvia_ideas/03_identidad_marca_logo_ux_ui.md) · [**🇨🇱 Brechas Chile & Global**](02_investigacion_global/08_brechas_chile_y_oportunidades_globales.md) · [**🇷🇺🇨🇳🇯🇵 Rusia/China/Japón**](02_investigacion_global/10_inteligencia_rusia_china_japon_simuladores.md) · [**🔌 APIs Multi-Agencia**](02_investigacion_global/09_apis_multiagencia_recursos_construccion.md) · [**⚠️ Desafíos Globales**](05_plan_ejecucion/04_desafios_globales_esperados.md)
 
 </div>
 
@@ -27,7 +27,7 @@ Si recién entrás al repositorio, **no hace falta leer los 37 documentos de gol
 3. **Minutos 8–12 (Nuestra Ventaja Injusta en Chile y el Mundo):** Mirá qué **nadie está abordando en Chile ni globalmente** en [`02_investigacion_global/08_brechas_chile_y_oportunidades_globales.md`](02_investigacion_global/08_brechas_chile_y_oportunidades_globales.md).
 4. **Minutos 12–15 (Según tu Rol en el Equipo):**
    - **Data Science / GIS / Backend:** [`02_investigacion_global/09_apis_multiagencia_recursos_construccion.md`](02_investigacion_global/09_apis_multiagencia_recursos_construccion.md) + [`02_investigacion_global/05_estado_del_arte_metodos.md`](02_investigacion_global/05_estado_del_arte_metodos.md).
-   - **Frontend / 3D / UX Inclusiva:** [`05_plan_ejecucion/01_arquitectura_tecnica.md`](05_plan_ejecucion/01_arquitectura_tecnica.md) + [`03_lluvia_ideas/02_evaluacion_vision_humana_educativa_ods_carbono.md`](03_lluvia_ideas/02_evaluacion_vision_humana_educativa_ods_carbono.md).
+   - **Frontend / 3D / Marca / UX Inclusiva:** [`03_lluvia_ideas/03_identidad_marca_logo_ux_ui.md`](03_lluvia_ideas/03_identidad_marca_logo_ux_ui.md) + [`05_plan_ejecucion/01_arquitectura_tecnica.md`](05_plan_ejecucion/01_arquitectura_tecnica.md) + [`03_lluvia_ideas/02_evaluacion_vision_humana_educativa_ods_carbono.md`](03_lluvia_ideas/02_evaluacion_vision_humana_educativa_ods_carbono.md).
    - **Ciencia Planetaria / Pitch / Estrategia:** [`01_mckinsey/03_arbol_problemas_MECE.md`](01_mckinsey/03_arbol_problemas_MECE.md) + [`05_plan_ejecucion/04_desafios_globales_esperados.md`](05_plan_ejecucion/04_desafios_globales_esperados.md).
 
 > **Garantía de Reglas Space Apps:** Este repositorio contiene **cero líneas de código de la aplicación final**. Reúne exclusivamente investigación científica abierta, ecuaciones físicas, catálogos de APIs públicas, bibliografía revisada por pares y agentes/skills de apoyo permitidos antes del inicio oficial del hackathon.
@@ -151,10 +151,12 @@ En [`05_plan_ejecucion/04_desafios_globales_esperados.md`](05_plan_ejecucion/04_
 - [`07_bibliografia_papers_clave.md`](02_investigacion_global/07_bibliografia_papers_clave.md) — 34 papers revisados por pares listos para respaldar el proyecto.
 - [`08_brechas_chile_y_oportunidades_globales.md`](02_investigacion_global/08_brechas_chile_y_oportunidades_globales.md) — **Nuevo:** Las 7 brechas no abordadas en Chile + 7 puntos ciegos globales.
 - [`09_apis_multiagencia_recursos_construccion.md`](02_investigacion_global/09_apis_multiagencia_recursos_construccion.md) — **Nuevo:** Endpoints STAC, WMTS, PDS4 y APIs de NASA, ESA, JAXA, CNSA, ISRO, IKI-RAS y Chile.
+- [`10_inteligencia_rusia_china_japon_simuladores.md`](02_investigacion_global/10_inteligencia_rusia_china_japon_simuladores.md) — **Nuevo:** Recursos y simulantes traducidos de Rusia (`ВИ-75`, `ВИ-Т`, `ВИ-М1`, `LEND/FREND`, `Луна-27`), China (`嫦娥七号`, `NAO-1`, `TJ-M1`, `月壤砖`), Japón (`LUPEX`, `FJS-1`) + bases abiertas de regolito y 3D (`NASA glTF`, `NIST`).
 
-### `03_lluvia_ideas/` — Ideación Multi-Agencia e Impacto Humano/Climático
+### `03_lluvia_ideas/` — Ideación Multi-Agencia, Marca Local e Impacto Humano/Climático
 - [`01_brainstorm_expertos.md`](03_lluvia_ideas/01_brainstorm_expertos.md) — Lluvia de ideas desde 6 mesas expertas (NASA, MIT, Stanford, Agencias Globales, Creativos, Red Team).
 - [`02_evaluacion_vision_humana_educativa_ods_carbono.md`](03_lluvia_ideas/02_evaluacion_vision_humana_educativa_ods_carbono.md) — Viabilidad de vocación astronauta, retención cognitiva, inclusión digital/laboral, ODS y Carbono Día 0.
+- [`03_identidad_marca_logo_ux_ui.md`](03_lluvia_ideas/03_identidad_marca_logo_ux_ui.md) — **Nuevo:** 7 opciones de nombre con raíz local chilena (*Kunza / Mapudungun / Andina* → `ÁHLAR 4D`, `HÔIRI`, `LIKANA`, `APACHETA`), diseño geométrico de logo, paleta OLED Carbon-Zero y arquitectura UX/UI.
 
 ### `04_propuestas/` — Portafolio de Soluciones y Matriz de Decisión
 - [`01_propuestas_solucion.md`](04_propuestas/01_propuestas_solucion.md) — Las 9 propuestas detalladas + arquitectura combinada `TERRA·TWIN 4D`.
