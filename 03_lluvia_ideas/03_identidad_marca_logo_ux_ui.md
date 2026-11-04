@@ -18,7 +18,20 @@ Antes de bautizar el proyecto, rescatamos palabras auténticas de los pueblos or
 | **Kunza / Mundo Andino** | **`Lickan`** / **`Likana`** | **Territorio, pueblo, tierra habitada** | Transformar parajes extremos en hogares habitables para la humanidad. |
 | **Quechua / Aymara** *(Andes)* | **`Apacheta`** | **Hito cónico de piedras en pasos altos** | Señal ancestral que marca la **ruta segura** en desiertos y cumbres extremas: ¡la metáfora perfecta de un análogo terrestre preparando el viaje a Marte! |
 | **Mapudungun** *(Pueblo Mapuche — Sur)* | **`Kuyén`** / **`Wenu Mapu`** | **Luna** / **La Tierra de Arriba (Cosmos)** | Conecta los tubos de lava y volcanes del sur (Villarrica) con el cosmos. |
-| **Rapa Nui** *(Isla de Pascua)* | **`Ana`** + **`Hetu'u`** | **Cueva o tubo de lava** + **Estrella** | Ej. *Ana Te Pahu*: las cuevas volcánicas reales de Rapa Nui como refugios lunares. |
+| **Rapa Nui** *(Isla de Pascua)* | **`Ana`** + **`Mahina`** / **`Hetu'u`** | **Cueva de lava** + **Luna** / **Estrella** | Ej. *Ana Te Pahu*: las cuevas volcánicas reales de Rapa Nui como refugios lunares. |
+
+### 1.1 Los 8 Nombres Ancestrales de la Luna a lo Largo de Chile (Norte a Antártica)
+
+| Pueblo / Lengua | Nombre de la Luna | Pronunciación aprox. | Terreno Análogo Chileno que Conecta |
+|---|---|---|---|
+| **Lickanantay (*Kunza*)** · Atacama | **`Ckahmor`** / **`Ckamor`** | *Ka-mór* | Desierto hiperárido, *Salar ácido de Gorbea*, *Cráter Monturaqui* y *Chajnantor*. |
+| **Mapuche (*Mapudungun*)** · Centro-Sur | **`Küyen`** / **`Küyeṉ`** | *Kü-yén* | Volcanes activos y cuevas basálticas del sur (*Villarrica / Challupén*). |
+| **Quechua** · Cordillera Andina | **`Killa`** *(`Mama Killa`)* | *Kí-ya / Kí-lla* | Alta cumbre (*Ojos del Salado*) y corredor de *Glaciares Rocosos*. |
+| **Aymara** · Altiplano Norte | **`Phaxsi`** *(`Mama Phaxsi`)* | *Páj-si* | Salares y mesetas altiplánicas sobre los $4{,}000\text{ m}$. |
+| **Rapa Nui** · Polinesia Chilena | **`Mahina`** | *Ma-hí-na* | Sistemas de tubos y cuevas de lava (*Ana Te Pahu / Roiho*). |
+| **Selk'nam** · Tierra del Fuego | **`Kreeh`** / **`Kré`** | *Kré / Krij* | Campo volcánico subpolar *Pali Aike* ($52^\circ\text{S}$) y estepa magallánica. |
+| **Yagán (*Yámana*)** · Cabo de Hornos | **`Hanúxa`** / **`Hanúha`** | *Ja-nú-ja* | Puerta austral subantártica rumbo a *Glaciar Unión* ($79.8^\circ\text{S}$). |
+| **Kawésqar** · Patagonia Occidental | **`Ak'éwek-sélas`** / **`Arkaksélas`** | *A-ké-wek sé-las* | Grandes campos de hielo y fiordos periglaciales australes. |
 
 ---
 
