@@ -91,27 +91,28 @@ Usar fondo negro puro/casi puro ahorra hasta **60 % de energía en pantallas OLE
 
 ## 4. Arquitectura de Experiencia de Usuario (UX/UI) — "Amor a Primera Vista en 10 Segundos"
 
-Para que tanto un **Ingeniero Jefe de NASA** como un **niño o habitante rural de 9 o 70 años en Atacama o Magallanes** sientan que la herramienta fue hecha para ellos, diseñamos una **Interfaz Espejo Sincronizada con Conmutador Dual**:
+Para que tanto un **Ingeniero Jefe de NASA** como un **niño o habitante rural de 9 o 70 años en Atacama o Magallanes** sientan que la herramienta fue hecha para ellos, diseñamos una **Interfaz de Mundo Abierto Tri-Pantalla Sincronizada (`🌑 Luna · 🌍 Tierra · 🔴 Marte`) con Conmutador Horizontal (`1×3`) ↔ Vertical (`3×1`)** (detalle técnico en [`05_plan_ejecucion/05_motor_mundo_abierto_tri_pantalla.md`](../05_plan_ejecucion/05_motor_mundo_abierto_tri_pantalla.md)):
 
 ```mermaid
 flowchart TD
-    LAND["Pantalla de Entrada (0 clics de espera):<br/>Doble Globo 3D Vivo — Izquierda: Luna/Marte · Derecha: Tierra<br/>Conectados por arcos luminosos hacia los mejores gemelos"]
+    LAND["Pantalla de Entrada (0 clics de espera):<br/>Mundo Abierto Tri-Pantalla 3D Vivo — 🌑 Luna · 🌍 Tierra · 🔴 Marte<br/>Conmutable en 1 clic: Horizontal (1×3) ↔ Vertical Panorámico (3×1)"]
     LAND --> MODE{"Interruptor Superior Visible:<br/>¿Quién explora hoy?"}
-    MODE -->|"🛰️ Modo Arquitecto de Misión (70%)"| PRO["Consola Científica NASA/MIT:<br/>• Selector de Base (Artemis III / ILRS / Arcadia / Jezero)<br/>• Radar PAFI de 8 ejes + Brecha Irreducible Δ_irr<br/>• Slider Temporal 4D Chrono-Luna (día/hora de luz rasante sin nieve)<br/>• Simulador Visor de Casco Lunar (cielo negro + sombras duras)<br/>• Optimizador de Portafolio + Calculadora tCO₂e Aéreo Evitado"]
-    MODE -->|"🧑‍🚀 Modo Cadete & Comunidad (30%)"| EXP["Experiencia Guiada por Voz y Sin Jerga:<br/>• Botón gigante: '¿Dónde está la Luna o Marte cerca de mi casa?'<br/>• Navegación por Voz (Web Speech API) + Modo Offline Rural<br/>• Micro-Reto Cognitivo de 15 s (Retrieval + Dual Coding)<br/>• Ficha de Custodio Local (empleo/geoturismo + alerta de protección ecológica)"]
+    MODE -->|"🛰️ Modo Arquitecto de Misión (70%)"| PRO["Consola Científica NASA/MIT:<br/>• Vuelo orbital hasta Caminata de Rover/Astronauta 1:1 en los 3 mundos<br/>• Radar PAFI Tri-Cuerpo + Brecha Irreducible diferenciada (Δ_Luna vs Δ_Marte)<br/>• Slider Temporal 4D Chrono-Luna + Corte Subterráneo de Radar ISRU<br/>• Prueba visual de gravedad comparada (0.16g · 1.00g · 0.38g)<br/>• Optimizador de Portafolio + Calculadora tCO₂e Aéreo Evitado"]
+    MODE -->|"🧑‍🚀 Modo Cadete & Comunidad (30%)"| EXP["Experiencia Guiada por Voz y Sin Jerga:<br/>• Botón gigante: '¿Dónde están la Luna y Marte cerca de mi casa?'<br/>• Vista Vertical 3×1 adaptada 100% a celulares + Navegación por Voz Offline<br/>• Micro-Reto Cognitivo de 15 s (Retrieval + Dual Coding en las 3 pantallas)<br/>• Ficha de Custodio Local (empleo/geoturismo + alerta de protección ecológica)"]
 ```
 
 ### Los 5 Momentos "Wow" de Interacción que Ganan el Pitch en Vivo
 
-1. **Sincronización Espejo con Escalamiento Gravitacional ($\pi$-Sync Split View):**
-   - La pantalla se divide al medio: a la izquierda estás sobre el borde de **Shackleton ($89.9^\circ\text{S}$ en la Luna)** o **Phlegra Montes (Marte)**; a la derecha aparece automáticamente **Fiskenæsset (Groenlandia)**, **Glaciar Unión ($79.8^\circ\text{S}$, Chile)** o un **Glaciar Rocoso del Cajón del Maipo**. Cuando giras o inclinas la cámara en Marte, la cámara en la Tierra gira exactamente con el mismo ángulo azimutal y elevación solar!
+1. **Mundo Abierto Tri-Pantalla con Sincronización Cinemática (`Horizontal 1×3` ↔ `Vertical 3×1`):**
+   - La pantalla se divide en **3 mundos abiertos simultáneos sobre un único lienzo WebGL (`gl.scissor`)**: **🌑 Luna** (*Shackleton / Mons Mouton* con DEM `LOLA 5m` + `ShadowCam`), **🌍 Tierra** (*Glaciar Unión / Salar de Gorbea / Fiskenæsset / Cajón del Maipo* con DEM `Copernicus/REMA 2–30m`) y **🔴 Marte** (*Arcadia Planitia / Jezero* con DEM `MOLA/HRSC/HiRISE 1m` + hielo `SWIM`).
+   - En **Modo Horizontal (`1×3` columnas)** comparas cráteres, pendientes y rutas de rover lado a lado; al pulsar **Modo Vertical (`3×1` filas apiladas)** obtienes **3 parabrisas panorámicos widescreen (`21:9`)** para comparar el horizonte completo, el color del cielo (vacío negro `#000000` vs. cielo terrestre/visor lunar vs. dispersión Mie ocre marciana) y las sombras a nivel de los ojos del astronauta. Cuando caminas o giras en la Tierra, tu avatar/rover camina y gira en sincronía exacta en la Luna y Marte.
 2. **El "Visor de Casco Artemis" (*Chrono-Luna Time Slider*):**
    - Al arrastrar la barra del año sobre un sitio terrestre polar/subpolar, el gráfico muestra la curva anual de elevación solar cruzada con nieve satelital (`MODIS`), se ilumina en dorado la **"Ventana Óptima de Entrenamiento"** (ej. *12–28 de octubre, Sol a $1.4^\circ$, $0\%$ nieve espesa*) y un botón **"Activar Visor Lunar"** apaga la dispersión azul del cielo terrestre para mostrar exactamente el contraste extremo blanco/negro que verá la cámara del astronauta.
-3. **Tarjeta de Honestidad Científica + Simulante Recomendado:**
-   - Al abrir cualquier sitio, en vez de vender humo, muestra dos barras claras: **`Fidelidad Alcanzable PAFI: 88/100`** (desglosada en Topografía, Litología, Térmica, Hielo, Luz 4D) y **`Brecha Física Irreducible`** (*Gravedad $0.16g \to$ requiere suspensión ARGOS; Presión $\to$ requiere cámara TVAC*), más el **simulante geotécnico exacto de referencia** (`LHS-1` / `NAO-1` / `LSS-ISAC-1` / `VI-T` / `MGS-1` / `TJ-M1`) y la **Clase de Protección Ambiental** (*Clase A: Solo sensores no invasivos* vs. *Clase B: Apto para perforación ISRU*).
-4. **De *Influencers* a Exploradores ("Tu Pedazo de Marte a X km"):**
-   - Al activar el **Modo Cadete**, la interfaz cambia jerga técnica por iconos universales, lee en voz alta en español o inglés y lanza un desafío visual interactivo de 15 segundos: *"Mira estas dos fotos reales: una la tomó el rover Perseverance en Marte y la otra está en Atacama, Chile. ¿Cuál tiene agua ácida escondida?"* (aplicando *Retrieval Practice* de alta retención cognitiva y otorgando insignia descargable de *Explorador Planetario Local*).
+3. **Tarjeta de Honestidad Científica Tri-Cuerpo + Prueba de Gravedad + Corte Subterráneo:**
+   - Al abrir cualquier sitio, en vez de vender humo, muestra las barras separadas **`PAFI_Luna` / `PAFI_Marte`** y la **`Brecha Física Irreducible`** de cada astro, permite lanzar una sonda/roca en vivo para ver la diferencia de caída balística (**$0.16\,g$ Luna vs. $1.00\,g$ Tierra vs. $0.38\,g$ Marte**), abre un **corte de radar subterráneo de $10\text{ m}$** (`DFSAR` Lunar ↔ `Glaciar Rocoso DGA` ↔ `SWIM/RoPeR` Marciano) y prescribe el **simulante geotécnico exacto** (`LHS-1` / `NAO-1` / `VI-T` / `MGS-1` / `TJ-M1`).
+4. **De *Influencers* a Exploradores ("Tu Pedazo de Luna y Marte a X km"):**
+   - Al activar el **Modo Cadete**, la interfaz cambia jerga técnica por iconos universales, lee en voz alta en español o inglés y lanza un desafío visual interactivo de 15 segundos sobre las 3 pantallas: *"Mira estos tres paisajes reales en mundo abierto: Luna, Atacama y Marte. ¿En cuál de ellos hay hielo escondido bajo las piedras?"* (aplicando *Retrieval Practice* de alta retención cognitiva y otorgando insignia descargable de *Explorador Planetario Local*).
 5. **Telemetría Verde en Tiempo Real (Pie de Página Permanente Día 0):**
    - Un micro-indicador limpio en la barra inferior muestra dos números reales:
-     - `⚡ Huella Digital Sesión: 0.03 gCO₂e (Arquitectura Estática PMTiles · OLED Mode — ISO/IEC 21031)`
+     - `⚡ Huella Digital Sesión: 0.03 gCO₂e (Single-WebGL Scissor · 0 FPS en reposo · OLED Mode — ISO/IEC 21031)`
      - `✈️ Emisiones Evitadas en Campaña Seleccionada: -18.4 tCO₂e al entrenar en análogo regional certificado`.

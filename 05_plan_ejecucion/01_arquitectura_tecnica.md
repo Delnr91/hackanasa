@@ -25,8 +25,8 @@ flowchart TB
     end
 
     subgraph L3["CAPA 3: EMPAQUETADO SERVERLESS INDESTRUCTIBLE"]
-        STATIC["Artefactos Estáticos Estándar:<br/>PMTiles (capas globales) + GeoJSON enriquecido<br/>+ WMTS directo de NASA Moon/Mars Trek"]
-        UI["Frontend Interactivo 2D/3D:<br/>Split-Globe (Planeta ↔ Tierra), Slider 365 días,<br/>Visor Casco Lunar (sombras 1.5°), Radar 8 ejes,<br/>Generador de Portafolio & Ficha Local/Global"]
+        STATIC["Artefactos Estáticos Estándar:<br/>PMTiles + Terrain-RGB DEMs + GeoJSON enriquecido<br/>+ 3D Tiles / WMTS directo de NASA Moon/Mars Trek"]
+        UI["Frontend Mundo Abierto 2D/3D (Single-Canvas Scissor):<br/>Tri-Pantalla Sincronizada (🌑 Luna · 🌍 Tierra · 🔴 Marte)<br/>Conmutable Horizontal (1×3) ↔ Vertical (3×1) ↔ Dual (1×2),<br/>Caminata Rover 1:1, Slider 365 días & Portafolio Carbon-Zero"]
     end
 
     EO --> HARM
@@ -74,17 +74,21 @@ flowchart TB
 
 ---
 
-## 4. Diseño de Experiencia de Usuario (UX) Pensado para Jueces ocupados
+## 4. Diseño de Experiencia de Usuario (UX) y Motor de Mundo Abierto Tri-Pantalla
 
-1. **Vista Principal — Espejo Planetario (*Split Screen*):**
-   - **Izquierda:** Selector de cuerpo (**Luna** o **Marte**) con capas oficiales **WMTS de NASA Moon Trek / Mars Trek** y pines sobre los 9 sitios *Artemis III*, *Shackleton/ILRS*, *Tranquillitatis Pit*, *Arcadia*, *Phlegra*, *Utopia*, *Jezero* y *Oxia Planum*.
-   - **Derecha:** Mapa de la Tierra coloreado por $\text{PAFI}$ con los **Top Gemelos Globales** y botón **"Destacar Mi Región / Sede Local"**.
+> 🔗 **Especificación profunda del motor 3D:** Ver [`05_motor_mundo_abierto_tri_pantalla.md`](05_motor_mundo_abierto_tri_pantalla.md) para el detalle del pipeline `Single-WebGL Scissor`, generación instantánea de terreno `Martini/3DTilesRendererJS` y sincronización cinemática en los 3 astros.
+
+1. **Vista Principal — Mundo Abierto Tri-Pantalla Sincronizado (`🌑 Luna · 🌍 Tierra · 🔴 Marte`):**
+   - **Conmutador de Disposición en Tiempo Real:**
+     - **Modo Horizontal (`1×3` Columnas — Desktop / War Room):** Izquierda **🌑 Luna** (`LRO LOLA 5m` + `Kaguya MI` + `ShadowCam` + `DFSAR`), Centro **🌍 Tierra** (`Copernicus GLO-30` / `ArcticDEM 2m` / `REMA 2m` + capa `PAFI` + polígonos `DGA Chile`), Derecha **🔴 Marte** (`MOLA/HRSC` + `HiRISE 1m` + `NASA SWIM` + `CRISM`).
+     - **Modo Vertical (`3×1` Filas Apiladas — Horizonte Panorámico 21:9 & Móvil):** Apila verticalmente el horizonte lunar (arriba, cielo negro en vacío y sombras de $1.5^\circ$), el horizonte del análogo terrestre (centro) y el horizonte marciano (abajo, atmósfera ocre con dispersión Mie de polvo), ideal para comparar perfiles de cordilleras/cráteres al caminar a nivel de superficie y para uso nativo en smartphones.
+     - **Modo Espejo Focalizado (`1×2` Dual):** Permite aislar un solo par (`Luna ↔ Tierra` o `Marte ↔ Tierra`) cuando el usuario evalúa un ensayo monoespecífico.
+   - **Exploración Continua Multi-Escala (Órbita $\to$ Caminata de Rover/Astronauta 1:1):** Las 3 cámaras comparten rumbo ($\psi$), cabeceo ($\theta$), avance y escala ($\text{métrica } 1:1$ o $\pi\text{-scaling gravitacional}$) sobre un **único contexto WebGL con `gl.scissor` y `requestRenderMode: true`** (cero consumo de GPU en reposo).
 2. **Barra Inferior — Línea de Tiempo *Chrono-Luna* (Día 1 al 365):**
-   - Al arrastrar la fecha, se iluminan en tiempo real las franjas polares y subpolares libres de nieve pesada que ese día tienen elevación solar máxima de $0.2^\circ\text{–}2.5^\circ$.
-3. **Panel Lateral — Ficha Científica Comparativa (*Twin Card*):**
-   - Gráfico radar superpuesto (Sitio Lunar/Marciano vs. Sitio Terrestre).
-   - Alerta clara de **Brecha Física Irreducible** + equipo de compensación sugerido (ej. simulante `LHS-1`/`LSS-ISAC-1`, cámara TVAC, descarga gravitatoria).
-   - Evidencia bibliográfica multilingüe y estado de fragilidad climática.
+   - Al arrastrar la fecha, se iluminan en tiempo real las franjas polares y subpolares libres de nieve pesada que ese día tienen elevación solar máxima de $0.2^\circ\text{–}2.5^\circ$, proyectando sombras topográficas exactas en las 3 pantallas.
+3. **Panel Lateral — Ficha Científica Comparativa Tri-Cuerpo (*Tri-Twin Card*):**
+   - Gráfico radar superpuesto ($\text{PAFI}_{\text{Luna}}$ vs. Sitio Terrestre vs. $\text{PAFI}_{\text{Marte}}$).
+   - Alerta clara de **Brecha Física Irreducible diferenciada** ($\Delta^{\text{irr}}_{\text{Luna}}: 0.16\,g, 0\text{ Pa}, 40\text{ K}$ vs. $\Delta^{\text{irr}}_{\text{Marte}}: 0.38\,g, 610\text{ Pa CO}_2$) + prueba visual interactiva de caída gravitatoria ($0.16g \cdot 1.00g \cdot 0.38g$), corte subterráneo de radar ISRU y simulante recomendado (`LHS-1`, `NAO-1`, `VI-T`, `MGS-1`, `TJ-M1`).
 4. **Pestaña "Armar Mi Campaña" (*Mission Portfolio & Carbon-Zero Calculator*):**
    - Checkboxes de subsistemas + ubicación de origen del equipo $\to$ devuelve la ruta óptima de 2 a 4 sitios en el mapa **más las toneladas de $\text{CO}_2\text{e}$ aeronáutico evitadas** al entrenar en gemelos regionales cercanos.
 5. **Conmutador Superior Dual + PWA Offline-First + Carbono Digital Día 0:**

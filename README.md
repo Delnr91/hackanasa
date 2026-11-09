@@ -1,18 +1,26 @@
 <div align="center">
 
-# 🛰️ TERRA·TWIN 4D — Planetary Analog Intelligence War Room
-### **NASA International Space Apps Challenge 2026 · *"The Next Frontier"***
+# 🛰️ LATTICES TEAM · TERRA·TWIN 4D War Room
+### **NASA International Space Apps Challenge 2026 · Antofagasta Region, Chile 🇨🇱**
 **Challenge:** *Identify Earth Locations that Analog the Permanent Moon Base Locations and Mars*
 
+<a href="assets/lattices_team_30s.mp4" title="Haz clic para abrir el video completo HD 30s con audio estéreo">
+  <img src="assets/lattices_team_loop.webp" alt="Lattices Team — 30s Open-World Planetary Analog Trailer (Loop)" width="100%" />
+</a>
+
+<sub>🎬 <b>Reproducción automática en bucle (30 s):</b> De La Portada de Antofagasta y el Desierto de Atacama a la Luna y Marte en mundo abierto · <a href="assets/lattices_team_30s.mp4"><b>▶️ Descargar / Ver versión HD con Audio Estéreo (.mp4)</b></a> · <a href="assets/lattices_team_poster.jpg"><b>🖼️ Ver Póster Oficial Lattices Team</b></a></sub>
+
+<br/><br/>
+
+[![Team](https://img.shields.io/badge/Official_Team-Lattices_Team_(Antofagasta)-7C3AED?style=for-the-badge)](assets/lattices_team_poster.jpg)
 [![Event](https://img.shields.io/badge/NASA_Space_Apps-Nov_14--15_2026-0B3D91?style=for-the-badge&logo=nasa&logoColor=white)](00_desafio/01_brief_desafio.md)
 [![Methodology](https://img.shields.io/badge/Framework-McKinsey_MECE_%2B_MIT_First_Principles-111827?style=for-the-badge)](01_mckinsey/01_metodo_mckinsey.md)
 [![Open Data](https://img.shields.io/badge/Open_Data-NASA_·_ESA_·_JAXA_·_CNSA_·_ISRO_·_IKI_·_Chile-0284C7?style=for-the-badge)](02_investigacion_global/09_apis_multiagencia_recursos_construccion.md)
 [![Carbon Day 0](https://img.shields.io/badge/Carbon_Day_0-ISO%2FIEC_21031_SCI-059669?style=for-the-badge)](03_lluvia_ideas/02_evaluacion_vision_humana_educativa_ods_carbono.md)
-[![Compliance](https://img.shields.io/badge/Pre--Hackathon-100%25_Rules_Compliant-F59E0B?style=for-the-badge)](05_plan_ejecucion/02_roadmap_hackathon.md)
 
 *Repositorio estratégico de investigación científica, estructuración McKinsey, catálogo global de APIs espaciales abiertas y cartera de **9 propuestas de solución** diseñado para alinear al equipo antes de las 48 horas de construcción.*
 
-[**🎯 El Desafío**](00_desafio/01_brief_desafio.md) · [**🚀 Las 9 Propuestas**](04_propuestas/01_propuestas_solucion.md) · [**🎨 Nombre, Logo & UX Local**](03_lluvia_ideas/03_identidad_marca_logo_ux_ui.md) · [**🇨🇱 Brechas Chile & Global**](02_investigacion_global/08_brechas_chile_y_oportunidades_globales.md) · [**🇷🇺🇨🇳🇯🇵 Rusia/China/Japón**](02_investigacion_global/10_inteligencia_rusia_china_japon_simuladores.md) · [**🔌 APIs Multi-Agencia**](02_investigacion_global/09_apis_multiagencia_recursos_construccion.md) · [**⚠️ Desafíos Globales**](05_plan_ejecucion/04_desafios_globales_esperados.md)
+[**🎯 El Desafío**](00_desafio/01_brief_desafio.md) · [**🚀 Las 9 Propuestas**](04_propuestas/01_propuestas_solucion.md) · [**🕹️ Mundo Abierto Tri-Pantalla (Luna·Tierra·Marte)**](05_plan_ejecucion/05_motor_mundo_abierto_tri_pantalla.md) · [**🎨 Nombre, Logo & UX Local**](03_lluvia_ideas/03_identidad_marca_logo_ux_ui.md) · [**🇨🇱 Brechas Chile & Global**](02_investigacion_global/08_brechas_chile_y_oportunidades_globales.md) · [**🇷🇺🇨🇳🇯🇵 Rusia/China/Japón**](02_investigacion_global/10_inteligencia_rusia_china_japon_simuladores.md) · [**🔌 APIs Multi-Agencia**](02_investigacion_global/09_apis_multiagencia_recursos_construccion.md) · [**⚠️ Desafíos Globales**](05_plan_ejecucion/04_desafios_globales_esperados.md)
 
 </div>
 
@@ -27,7 +35,7 @@ Si recién entrás al repositorio, **no hace falta leer los 37 documentos de gol
 3. **Minutos 8–12 (Nuestra Ventaja Injusta en Chile y el Mundo):** Mirá qué **nadie está abordando en Chile ni globalmente** en [`02_investigacion_global/08_brechas_chile_y_oportunidades_globales.md`](02_investigacion_global/08_brechas_chile_y_oportunidades_globales.md).
 4. **Minutos 12–15 (Según tu Rol en el Equipo):**
    - **Data Science / GIS / Backend:** [`02_investigacion_global/09_apis_multiagencia_recursos_construccion.md`](02_investigacion_global/09_apis_multiagencia_recursos_construccion.md) + [`02_investigacion_global/05_estado_del_arte_metodos.md`](02_investigacion_global/05_estado_del_arte_metodos.md).
-   - **Frontend / 3D / Marca / UX Inclusiva:** [`03_lluvia_ideas/03_identidad_marca_logo_ux_ui.md`](03_lluvia_ideas/03_identidad_marca_logo_ux_ui.md) + [`05_plan_ejecucion/01_arquitectura_tecnica.md`](05_plan_ejecucion/01_arquitectura_tecnica.md) + [`03_lluvia_ideas/02_evaluacion_vision_humana_educativa_ods_carbono.md`](03_lluvia_ideas/02_evaluacion_vision_humana_educativa_ods_carbono.md).
+   - **Frontend / 3D / Marca / UX Inclusiva:** [`05_plan_ejecucion/05_motor_mundo_abierto_tri_pantalla.md`](05_plan_ejecucion/05_motor_mundo_abierto_tri_pantalla.md) + [`03_lluvia_ideas/03_identidad_marca_logo_ux_ui.md`](03_lluvia_ideas/03_identidad_marca_logo_ux_ui.md) + [`05_plan_ejecucion/01_arquitectura_tecnica.md`](05_plan_ejecucion/01_arquitectura_tecnica.md) + [`03_lluvia_ideas/02_evaluacion_vision_humana_educativa_ods_carbono.md`](03_lluvia_ideas/02_evaluacion_vision_humana_educativa_ods_carbono.md).
    - **Ciencia Planetaria / Pitch / Estrategia:** [`01_mckinsey/03_arbol_problemas_MECE.md`](01_mckinsey/03_arbol_problemas_MECE.md) + [`05_plan_ejecucion/04_desafios_globales_esperados.md`](05_plan_ejecucion/04_desafios_globales_esperados.md).
 
 > **Garantía de Reglas Space Apps:** Este repositorio contiene **cero líneas de código de la aplicación final**. Reúne exclusivamente investigación científica abierta, ecuaciones físicas, catálogos de APIs públicas, bibliografía revisada por pares y agentes/skills de apoyo permitidos antes del inicio oficial del hackathon.
@@ -76,8 +84,8 @@ flowchart LR
         OPT["Optimizador MILP Set Cover<br/>(Fidelidad vs. Costo vs. tCO₂e Evitado)"]
     end
 
-    subgraph APP["3. PWA Serverless Estática (PMTiles + Globo 3D)"]
-        PRO["Modo Ingeniero de Misión<br/>Mapa Dual 3D Tierra↔Luna/Marte + Fichas EVA/ISRU"]
+    subgraph APP["3. PWA Mundo Abierto Tri-Pantalla (Single-Canvas Scissor)"]
+        PRO["Modo Ingeniero de Misión<br/>Tri-Pantalla Sincronizada (🌑 Luna · 🌍 Tierra · 🔴 Marte)<br/>Conmutable Horizontal (1×3) ↔ Vertical (3×1) + Caminata Rover 1:1"]
         KID["Modo Explorador & Comunidad (30%)<br/>Voz/Offline · Retos Cognitivos 15s · Custodios ODS · SCI Carbon-0"]
     end
 
@@ -162,11 +170,12 @@ En [`05_plan_ejecucion/04_desafios_globales_esperados.md`](05_plan_ejecucion/04_
 - [`01_propuestas_solucion.md`](04_propuestas/01_propuestas_solucion.md) — Las 9 propuestas detalladas + arquitectura combinada `TERRA·TWIN 4D`.
 - [`02_matriz_evaluacion.md`](04_propuestas/02_matriz_evaluacion.md) — Evaluación cuantitativa ponderada y configuraciones para equipos de 2 a 6 personas.
 
-### `05_plan_ejecucion/` — Blueprint Técnico, Roadmap 48h y Riesgos Globales
+### `05_plan_ejecucion/` — Blueprint Técnico, Mundo Abierto Tri-Pantalla, Roadmap 48h y Riesgos Globales
 - [`01_arquitectura_tecnica.md`](05_plan_ejecucion/01_arquitectura_tecnica.md) — Pipeline serverless (`GEE/STAC` → `PAFI/Chrono-Luna` → `PMTiles` + `MapLibre/Cesium 3D`).
 - [`02_roadmap_hackathon.md`](05_plan_ejecucion/02_roadmap_hackathon.md) — Cronograma operativo hora por hora para el fin de semana del hackathon.
 - [`03_riesgos_y_mitigacion.md`](05_plan_ejecucion/03_riesgos_y_mitigacion.md) — Gestión de riesgos y defensa ante preguntas críticas del jurado.
-- [`04_desafios_globales_esperados.md`](05_plan_ejecucion/04_desafios_globales_esperados.md) — **Nuevo:** Los 7 desafíos globales científicos, técnicos y socioambientales y cómo los resolvemos.
+- [`04_desafios_globales_esperados.md`](05_plan_ejecucion/04_desafios_globales_esperados.md) — Los 7 desafíos globales científicos, técnicos y socioambientales y cómo los resolvemos.
+- [`05_motor_mundo_abierto_tri_pantalla.md`](05_plan_ejecucion/05_motor_mundo_abierto_tri_pantalla.md) — **Nuevo:** Especificación completa del **Motor Web de Mundo Abierto Tri-Pantalla (`🌑 Luna · 🌍 Tierra · 🔴 Marte`)** conmutable en **Horizontal (`1×3`)** y **Vertical (`3×1`)** sobre un único lienzo WebGL (`gl.scissor` + `NASA-AMMOS/3DTilesRendererJS` + `Martini`).
 
 ### `06_agentes_y_skills/`, `.agents/` y `99_fuentes/` — Escuadrón IA y Trazabilidad
 - [`AGENTS.md`](AGENTS.md) & [`06_agentes_y_skills/01_agentes_skills_propuestos.md`](06_agentes_y_skills/01_agentes_skills_propuestos.md) — Manual de los **6 Agentes Especialistas** (`.agents/agents/*`) y **4 Skills** (`.agents/skills/*`) listos para invocar en terminal (`agy`).

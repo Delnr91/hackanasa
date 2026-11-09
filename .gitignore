@@ -1,3 +1,7 @@
+# Raw local draft renders (kept safely on local disk; final polished assets live in assets/)
+gemini_generated_video_*.mp4
+challengue.png
+
 # OS & Editor files
 .DS_Store
 Thumbs.db
