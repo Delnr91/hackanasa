@@ -3,17 +3,19 @@
 > Copiar este archivo como `CLAUDE.md` (y enlazarlo como `AGENTS.md` para Antigravity/Codex).
 > Contexto de investigación: repo `hackanasa`. Ante cualquier duda de reglas manda `hackanasa/00_desafio/03_rubrica_oficial_global_2026.md`.
 
-## Qué construimos
-Un solo motor de análogos terrestres de la Luna y Marte con datos abiertos, en dos partes:
-- **Parte A · Explorador** (sede Antofagasta, La Araucana): aprendizaje para todas las edades, por capas de papel.
-- **Parte B · Misión** (jurado global NASA): fidelidad por dimensión, brecha física irreducible y back-testing.
+## Qué construimos (propuesta a confirmar por el equipo)
+**ATACAMA LOOP**: comparar el cráter Jezero (Marte) con sectores de la región de Antofagasta usando NASADEM y el USGS CTX DEM de Jezero (20 m/píxel). Ciclo: **Comparar → Aprender → Planificar → Evidencia**. Cada sector comparado es un nodo de una red abierta (*lattice*) que conecta lo local con lo global.
+- **P0:** una comparación real, reproducible y con límites visibles (pendientes y relieve), micro-reto "¿Dónde probarías un rover?", 3 idiomas, desplegado.
+- **P1:** atlas de hasta 3 sectores (uno poco estudiado propuesto por el método), ficha de ensayo, pictogramas.
+- **P2:** gemelos en otros continentes y un nodo lunar.
+- Prioridad de evaluación: rúbrica NASA (5 criterios) + objetivos oficiales de La Araucana (ciencia de frontera, STEAM y empleabilidad, aplicación local, red interregional).
 La idea y las decisiones de producto las toma el equipo humano (ver `AI_DISCLOSURE.md`).
 
 ## Reglas no negociables
-1. **Datos abiertos y citados desde el día 1.** Cada ficha MDX tiene `sources[]` y `datasets[]`; sin fuente, no compila. Bibliografía única en `src/data/references.bib`.
+1. **Datos abiertos y citados desde el día 1.** Cada ficha JSON/GeoJSON tiene `sources[]` y `datasets[]`; un test (Vitest) falla si falta una fuente. Bibliografía única en `src/data/references.bib`.
 2. **Al menos un dataset NASA en el núcleo** de cada resultado mostrado, con su rótulo de fuente visible.
 3. **Honradez física:** nunca "idéntico a la Luna/Marte". Siempre qué se parece, cuánto y qué no (1/6 g o 0,38 g, vacío o CO₂ de ~0,6 kPa, radiación, 40–90 K en PSR).
-4. **Trilingüe:** `es` (fuente), `en` (obligatorio para NASA), `zh` (chino simplificado). Ningún texto suelto: todo pasa por los diccionarios o el contenido MDX. Las traducciones con IA se declaran y las revisa una persona.
+4. **Trilingüe:** `es` (fuente), `en` (obligatorio para NASA), `zh` (chino simplificado). Ningún texto suelto: todo pasa por los diccionarios de react-i18next. Las traducciones con IA se declaran y las revisa una persona.
 5. **Privacidad:** sin base de datos, cuentas, cookies, analítica ni formularios. Solo `localStorage` opcional y local.
 6. **Sin menores** reconocibles en imágenes, voces o video.
 7. **Sin marcas NASA** (insignia, *worm*, sello) ni logos de terceros sin permiso escrito. Imágenes raster generadas con IA → marca de agua visible.
@@ -28,10 +30,10 @@ La idea y las decisiones de producto las toma el equipo humano (ver `AI_DISCLOSU
 - **Guiado por metas verificables:** define cómo se comprueba (test, captura, métrica) antes de construir.
 
 ## Stack
-Astro 7 (estático, i18n) · React 19 (islas) · Tailwind 4 · MDX + rehype-citation · MapLibre + PMTiles · three/R3F (solo Parte B) · Motion · Hairline · Observable Plot · PWA · CO2.js · axe-core · GitHub Pages. Ciencia en Python, precalculada a archivos estáticos.
+React 19 + Vite 8 + TypeScript · react-i18next (es · en · zh) · MapLibre GL · Plotly.js (u Observable Plot si pesa) · Motion + Hairline · JSON/GeoJSON + `references.bib` · Vercel o GitHub Pages. Ciencia en Python (NumPy, Rasterio) + QGIS, precalculada a archivos estáticos. Sin backend, sin chatbot, sin 3D en el P0.
 
 ## Patrones
-Pipeline precalculado · Islands · Ports & Adapters por agencia (`DatasetAdapter`) · Strategy por dimensión de similitud · Content as data · Fuente única de verdad (bibliografía y tokens).
+Pipeline precalculado · Componentes React pequeños y sin estado global innecesario · Ports & Adapters por agencia (`DatasetAdapter`) · Strategy por dimensión de similitud · Content as data · Fuente única de verdad (bibliografía y tokens).
 
 ## Skills del repo (fijadas en `skills-lock.txt`)
 EGM (spec + revisión con ojos frescos) · grill-me · prototype · tdd · diagnosing-bugs · code-review · anatomy · impeccable · better-accessibility/layout/typography/colors · archify · frontend-design · webapp-testing · web-quality-audit · core-web-vitals · validador-space-apps-2026 · pitch-storytelling-space-apps.

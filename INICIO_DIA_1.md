@@ -6,7 +6,15 @@
 
 ---
 
-## 0. La idea-fuerza: una *lattice* que habla el idioma de la ciencia
+## 0. La propuesta sobre la mesa: ATACAMA LOOP dentro de una *lattice*
+
+**Producto construible (propuesta de Isabeau Valverde, ver [`aportes/isabeau/`](aportes/isabeau/README_ATACAMA_LOOP.md)):** comparar el cráter **Jezero** (Marte) con sectores de la región de Antofagasta usando **NASADEM** y el **USGS CTX DEM de Jezero (20 m/píxel)**; cinco pantallas (Comparar, Atlas, Aprender, Planificar, Evidencia); P0 = **una comparación real, reproducible y con límites visibles**. Resumen y alcance en el [`README`](README.md) §4–5.
+
+**Visión que la envuelve:** la *lattice* de abajo. Cada sector comparado es un nodo; la red conecta lo local con lo global y responde al objetivo oficial de La Araucana de **consolidar una red interregional de innovación**.
+
+**Objetivos oficiales de La Araucana** (verificados): democratizar el acceso a ciencia de frontera · competencias STEAM y empleabilidad · soluciones con aplicación local · red interregional de innovación. Metas ODS que declara: 4.3, 4.4, 9.5, 17.3, 17.16, 17.17.
+
+### La idea-fuerza: una *lattice* que habla el idioma de la ciencia
 
 La semilla es de ustedes (el nombre **Lattices Team** y la frase "la ciencia es un idioma mundial"). Aquí solo queda ordenada para que la decidan mañana.
 
@@ -160,7 +168,7 @@ Detalle en [`07_plan_maestro`](05_plan_ejecucion/07_plan_maestro_recursos_e_inst
 
 | Hora | Meta | Listo cuando… |
 |---|---|---|
-| 11:00–11:30 | Diagrama de arquitectura (Archify) + esqueleto Astro en 3 idiomas desplegado en Pages | la URL pública abre en ventana privada |
+| 11:00–11:30 | Diagrama de arquitectura (Archify) + esqueleto React + Vite + TypeScript con react-i18next (es · en · zh) desplegado en Vercel o Pages | la URL pública abre en ventana privada |
 | 11:30–14:00 | **Datos P0:** 3 nodos × 3 dimensiones precalculados, con fuentes | hay JSON + `references.bib` en el repo |
 | 14:00–18:00 | **P0 de producto:** Parte A (1 recorrido por capas de papel) + Parte B (mapa/lattice con desglose por dimensión y "en qué no se parece") | funciona en un celular |
 | **18:00** | **Gate:** validador en modo pre-envío + **envío preliminar** de la página | botón *Submit* presionado una vez |

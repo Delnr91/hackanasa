@@ -1,6 +1,23 @@
 # 00.5 · Lente Caja La Araucana (Local/Nacional) + Estrategia de Doble Rol Educativo
 
-> **Honestidad primero:** Caja La Araucana **no ha publicado una rúbrica local** en las fuentes que pudimos leer (13-nov-2026; su página `laaraucana.cl/hackaton-laaraucana-2026` no cargó). Lo que sigue es una **rúbrica inferida** a partir de (a) la regla oficial de que los jueces locales usan los criterios NASA, (b) las declaraciones públicas de sus gerentes en 2025–2026 y (c) quién ganó en Chile en 2024–2025. **Confirmar con la Local Lead el sábado temprano** (preguntas en §6).
+> **Honestidad primero:** Caja La Araucana **no ha publicado una rúbrica de jurado local** en las fuentes que pudimos leer (13-nov-2026; su página `laaraucana.cl/hackaton-laaraucana-2026` no cargó). Lo que sí publicó son sus **objetivos oficiales** para Space Apps (§0, hallazgo de Isabeau Valverde). El resto es una lente **inferida** a partir de la regla de que los jueces locales usan los criterios NASA, las declaraciones de sus gerentes y quién ganó en Chile en 2024–2025. **Confirmar con la Local Lead el sábado temprano** (preguntas en §8).
+
+---
+
+## 0. Objetivos oficiales de La Araucana para Space Apps (VERIFICADO)
+
+Fuente: caso *"NASA Space Apps Challenge Chile: Ciencia, innovación y colaboración global desde el territorio"*, publicado por **Caja de Compensación La Araucana** como responsable de la iniciativa en la plataforma Conecta del **Pacto Global Chile** (vigencia 2024–2026). Leído el 13-nov-2026.
+
+| # | Objetivo oficial | Cómo lo demuestra nuestro proyecto (sin inventar resultados) |
+|---|---|---|
+| 1 | **Democratizar el acceso a ciencia de frontera** | Datos NASA/USGS abiertos convertidos en una comparación que cualquiera entiende, gratis, sin cuenta y en 3 idiomas |
+| 2 | **Desarrollar competencias STEAM y empleabilidad** | Micro-reto "¿Dónde probarías un rover?" que enseña a leer pendientes, relieve y límites; el propio equipo aprende GIS y ciencia de datos |
+| 3 | **Generar soluciones con aplicación local** | Sectores de la región de Antofagasta caracterizados con datos para ensayos de exploración robótica |
+| 4 | **Consolidar una red interregional de innovación** | El método es abierto y replicable: otras sedes o comunidades pueden sumar su "nodo" (la *lattice*) |
+
+**Metas ODS que la propia iniciativa declara impactar:** **4.3** (acceso a formación técnica y superior), **4.4** (competencias técnicas para el empleo), **9.5** (investigación científica y capacidad tecnológica), **17.3**, **17.16** y **17.17** (alianzas). Usar **estas** metas en el pitch local.
+
+**Continuidad que ofrece La Araucana:** en 2026 vinculó a equipos de 2025 con *Despega tu Futuro* en FIDAE y tres startups fueron seleccionadas para pilotos y pasantías con la Fuerza Aérea de Chile. Un proyecto con camino de continuidad (piloto, ensayo de campo) encaja con lo que ya hacen.
 
 ---
 
@@ -142,3 +159,4 @@ flowchart TB
 - [Portal Educa: Caja La Araucana y Technovation Girls, becas de programación](https://portaleduca.cl/ninas-en-stem-caja-la-araucana-y-technovation-girls-lanzan-mas-de-300-becas-de-programacion-en-valparaiso-y-biobio/) · [El Nortero: becas La Araucana 2026](https://www.elnortero.cl/noticia/becas-de-estudio-la-araucana-2026/becas-de-hasta-170-mil-para-estudiantes-destacados-asi-se-)
 - [Pacto Global Chile: La Araucana y Sustainable Fitch](https://www.pactoglobal.cl/la-araucana-obtiene-la-nota-mas-alta-en-el-ambito-social-de-latinoamerica-en-clasificacion-sustainable-fitch/) · [UN Global Compact: La Araucana C.C.A.F.](https://unglobalcompact.org/participation/report/cop/detail/481448)
 - [Bases y rúbrica Nómada (cruce de rúbricas)](06_rubrica_nomada_usqai_y_cruce.md)
+- [Pacto Global Chile · Conecta: caso NASA Space Apps Challenge Chile (Caja La Araucana)](https://conecta.pactoglobal.cl/casos-de-empresas/nasa-space-apps-challenge-chile-ciencia-innovacion-y-colaboracion-global-desde-el-territorio/) — objetivos oficiales y metas ODS (hallazgo de Isabeau Valverde)

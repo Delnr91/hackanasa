@@ -68,8 +68,9 @@ Marca ✅/⚠️/❌:
 - Lunar polar: distingue **tierras altas anortosíticas + luz rasante** de **mares basálticos / tubos de lava**.
 - Tiene algo que "sorprenda".
 
-### Paso 5 · Lente La Araucana (inferida; decláralo así)
-Puntúa 1–5 y justifica: personas al centro / bienestar; reducción de brechas (territorial, digital, etaria); pertinencia para el territorio de la sede; educación y vocación STEM de nuevas generaciones; sostenibilidad/ODS con métrica honesta; demo en vivo que funcione en móvil.
+### Paso 5 · Lente La Araucana
+Primero los **4 objetivos oficiales** (verificados, ver `00_desafio/05` §0), puntúa 1–5 cada uno: (1) democratizar el acceso a ciencia de frontera; (2) competencias STEAM y empleabilidad; (3) soluciones con aplicación local; (4) red interregional de innovación. Comprueba que el pitch cite las metas ODS que La Araucana declara: 4.3, 4.4, 9.5, 17.3, 17.16, 17.17.
+Después la lente **inferida** (decláralo así): personas al centro; reducción de brechas (territorial, digital, etaria); demo en vivo que funcione en móvil.
 
 ### Paso 6 · Doble rol educativo (si aplica)
 - ¿El Modo Explorador se alimenta del mismo motor y datos que el Modo Misión?

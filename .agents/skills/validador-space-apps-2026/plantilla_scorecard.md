@@ -41,15 +41,16 @@
 | Anortosita polar vs. basalto bien distinguidos | | |
 | Factor sorpresa | | |
 
-## 4. Lente La Araucana (inferida) · /30
-| Eje | 1–5 | Nota |
-|---|---|---|
-| Personas al centro / bienestar | | |
-| Reducción de brechas | | |
-| Pertinencia territorial | | |
-| Educación y vocación STEM | | |
-| Sostenibilidad / ODS con métrica honesta | | |
-| Demo en vivo en móvil | | |
+## 4. Lente La Araucana · /35
+| Eje | Tipo | 1–5 | Nota |
+|---|---|---|---|
+| Democratizar el acceso a ciencia de frontera | Oficial | | |
+| Competencias STEAM y empleabilidad | Oficial | | |
+| Soluciones con aplicación local | Oficial | | |
+| Red interregional de innovación | Oficial | | |
+| Personas al centro / reducción de brechas | Inferido | | |
+| ODS citados = 4.3, 4.4, 9.5, 17.3, 17.16, 17.17 (sin cifras inventadas) | Oficial | | |
+| Demo en vivo en móvil | Inferido | | |
 
 ## 5. Premios objetivo
 1. … — qué falta: …
