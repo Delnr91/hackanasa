@@ -13,7 +13,11 @@
 | Desafío: *"Identify Earth Locations that Analog the Permanent Moon Base Locations and Mars"* | ✅ | Índice oficial de desafíos 2026 (`spaceappschallenge.org`) |
 | 5 criterios oficiales de evaluación (*Impact, Creativity, Validity, Relevance, Presentation*) y 10 categorías globales | ✅ | *NASA Space Apps Participant & Judging Guides* |
 | Ganadores Globales analizados 2024–2025 (*SkyShield*, *WaterWise*, *42 QuakeHeroes*, *SpaceGenes+*, *Resonant Exoplanets*) | ✅ | Comunicados de prensa oficiales en `nasa.gov` y `spaceappschallenge.org/awards` |
-| Lista exacta de hipervínculos en la pestaña *"Resources"* de este desafío puntual | ⚠️ | Verificar manualmente en navegador al abrir la pestaña *Resources* de `spaceappschallenge.org` (bloqueo TLS directo desde terminal local). |
+| Lista exacta de hipervínculos en la pestaña *"Resources"* de este desafío puntual | ✅ | Leída en navegador el 13-nov-2026: Earthdata Search, Worldview, PDS, LRO, Diviner; CSA RADARSAT; ESA Copernicus + Open Science Catalog; JAXA G-Portal. Detalle en [`00_desafio/03_rubrica_oficial_global_2026.md`](../00_desafio/03_rubrica_oficial_global_2026.md) §6. |
+| *Judging & Awards Guide* y *Project Submission Guide* 2026 (fechas: nominados 3-dic-2026, finalistas 17-dic-2026, ganadores 26-ene-2027; reglas "Super Intelligence") | ✅ | `spaceappschallenge.org/resources/` (versiones del 12-nov-2026, leídas el 13-nov-2026) |
+| 10 Ganadores Globales 2025, 45 finalistas, 23 menciones honrosas | ✅ | `spaceappschallenge.org/2025/meet-the-2025-global-winners/` · `nasa.gov` (18-dic-2025) |
+| Organización en Chile 2026: Caja La Araucana + American Spaces; 7 sedes; Antofagasta en UCN | ✅ | Página de sede Antofagasta 2026 · Tour Innovación (2-nov-2026) |
+| Rúbrica local propia de Caja La Araucana | ⚠️ | **No publicada** en las fuentes revisadas; la lente en `00_desafio/05_…` es inferida. Confirmar con la Local Lead. |
 
 ---
 

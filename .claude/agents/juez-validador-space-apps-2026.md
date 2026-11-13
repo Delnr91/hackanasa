@@ -1,0 +1,1 @@
+../../.agents/agents/juez-validador-space-apps-2026/agent.md

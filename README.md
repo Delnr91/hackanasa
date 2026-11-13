@@ -30,6 +30,7 @@
 
 Si recién entrás al repositorio, **no hace falta leer los 37 documentos de golpe**. Seguí esta ruta rápida para alinearnos hoy mismo y elegir qué construimos:
 
+0. **Antes de todo (Reglas del Juego 2026):** [`00_desafio/03_rubrica_oficial_global_2026.md`](00_desafio/03_rubrica_oficial_global_2026.md) (rúbrica y puertas duras), [`00_desafio/04_ganadores_2025_global_y_chile.md`](00_desafio/04_ganadores_2025_global_y_chile.md) y [`00_desafio/05_lente_la_araucana_y_estrategia_doble_rol.md`](00_desafio/05_lente_la_araucana_y_estrategia_doble_rol.md). Validá cualquier entregable con la skill [`validador-space-apps-2026`](.agents/skills/validador-space-apps-2026/SKILL.md).
 1. **Minutos 0–3 (El Problema Exacto):** Leé [`00_desafio/01_brief_desafio.md`](00_desafio/01_brief_desafio.md) y cómo ganaron los campeones mundiales anteriores en [`00_desafio/02_anatomia_ganadores_globales.md`](00_desafio/02_anatomia_ganadores_globales.md).
 2. **Minutos 3–8 (Las 9 Propuestas y la Matriz de Decisión):** Revisá la tabla resumen acá abajo y el detalle en [`04_propuestas/01_propuestas_solucion.md`](04_propuestas/01_propuestas_solucion.md) + [`04_propuestas/02_matriz_evaluacion.md`](04_propuestas/02_matriz_evaluacion.md).
 3. **Minutos 8–12 (Nuestra Ventaja Injusta en Chile y el Mundo):** Mirá qué **nadie está abordando en Chile ni globalmente** en [`02_investigacion_global/08_brechas_chile_y_oportunidades_globales.md`](02_investigacion_global/08_brechas_chile_y_oportunidades_globales.md).
@@ -142,6 +143,9 @@ En [`05_plan_ejecucion/04_desafios_globales_esperados.md`](05_plan_ejecucion/04_
 ### `00_desafio/` — Reconocimiento del Desafío y Reglas de Juego
 - [`01_brief_desafio.md`](00_desafio/01_brief_desafio.md) — Prompt oficial exacto, dimensiones de evaluación y límites físicos irreducibles.
 - [`02_anatomia_ganadores_globales.md`](00_desafio/02_anatomia_ganadores_globales.md) — Ingeniería inversa de *Global Winners* recientes y estrategia dual Local + Global.
+- [`03_rubrica_oficial_global_2026.md`](00_desafio/03_rubrica_oficial_global_2026.md) — **Nuevo · fuente de verdad:** rúbrica oficial 2026 (5 criterios, 1–5), embudo y fechas, 12 puertas duras de elegibilidad, reglas de IA ("Super Intelligence"), campos de la página, guion del video de 30 s y los 14 desafíos 2026.
+- [`04_ganadores_2025_global_y_chile.md`](00_desafio/04_ganadores_2025_global_y_chile.md) — **Nuevo:** los 10 ganadores globales 2025, menciones latinoamericanas, ganadores locales en Chile 2024–2025 y 15 tips accionables.
+- [`05_lente_la_araucana_y_estrategia_doble_rol.md`](00_desafio/05_lente_la_araucana_y_estrategia_doble_rol.md) — **Nuevo:** lente local de Caja La Araucana (inferida y con evidencia), cruce con la rúbrica NASA, producto educativo de doble rol, dos pitches, ODS/carbono e identidad papel-cartón sin riesgo de descalificación.
 
 ### `01_mckinsey/` — Estructuración Estratégica ("Afilar el Hacha")
 - [`01_metodo_mckinsey.md`](01_mckinsey/01_metodo_mckinsey.md) — Proceso de 7 pasos McKinsey + Pirámide de Minto (SCR).

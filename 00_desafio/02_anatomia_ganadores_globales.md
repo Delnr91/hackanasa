@@ -24,6 +24,8 @@ flowchart LR
 
 ## 2. Anatomía de Ganadores Globales Recientes (2024–2025)
 
+> **Actualización 13-nov-2026:** los ganadores **2025** de esta tabla (*SpaceGenes+*, *Resonant Exoplanets*) están verificados contra la página oficial; la lista completa de los 10 ganadores 2025 está en [`04_ganadores_2025_global_y_chile.md`](04_ganadores_2025_global_y_chile.md). Las filas **2024** no se re-verificaron en esa pasada. La rúbrica y las fechas vigentes están en [`03_rubrica_oficial_global_2026.md`](03_rubrica_oficial_global_2026.md); el embudo de abajo es orientativo (en 2025 hubo **45 finalistas** y **23 menciones honrosas**, no ~40).
+
 Estudiamos ganadores mundiales verificados de desafíos planetarios, datos satelitales y ciencia para extraer su patrón ganador:
 
 | Proyecto Ganador | Categoría Mundial | Qué construyeron | Patrón replicable para nosotros |
