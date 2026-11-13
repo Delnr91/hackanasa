@@ -43,7 +43,8 @@ Versiones verificadas en el registro npm el 13-nov-2026.
 | Capa | Elección | Versión / licencia | Por qué |
 |---|---|---|---|
 | Sitio | **Astro** (salida estática) | 7.4 · MIT | Rutas i18n nativas (`/es/ /en/ /zh/`), *content collections* tipadas, HTML casi sin JS (bajo carbono) |
-| Islas interactivas | **Svelte 5** vía `@astrojs/svelte` | 5.57 · MIT | Componentes livianos para mapas y misiones |
+| Islas interactivas | **React 19** vía `@astrojs/react` (*actualizado 13-nov: antes Svelte 5*) | 19.3 · MIT | Casi todo el ecosistema elegido es React (Hairline, Anatomy-figures, R3F, 21st.dev); ver [`07_plan_maestro_recursos_e_instalacion.md`](07_plan_maestro_recursos_e_instalacion.md) |
+| Estilos | **Tailwind CSS 4** + tokens CSS de papel | 4.3 · MIT | Rápido y compatible con los componentes de referencia |
 | Contenido | **MDX** (`@astrojs/mdx`) con esquema que **exige `sources`** en cada ficha | 8.1 · MIT | "Citar desde el día 1" lo garantiza el *build*: sin fuente, no compila |
 | Citas | **rehype-citation** + archivo `references.bib`/CSL-JSON; **citation-js** para la UI | 2.3 · MIT / 0.9 · MIT | Bibliografía automática con formato estándar (APA/Chicago) |
 | i18n | Rutas i18n de Astro + diccionarios por idioma (opción: **Paraglide JS**) | 3.2 · MIT | Mensajes tipados; nada de texto suelto sin traducir |
@@ -141,8 +142,8 @@ app/
   src/content/misiones/{es,en,zh}/*.mdx   # Parte A
   src/data/references.bib                 # bibliografía única
   src/i18n/{es,en,zh}.json
-  src/components/PaperLayers.svelte       # capas desde curvas de nivel (SVG)
-  src/components/AnalogMap.svelte         # MapLibre + PMTiles
+  src/components/PaperLayers.tsx       # capas desde curvas de nivel (SVG)
+  src/components/AnalogMap.tsx         # MapLibre + PMTiles
   public/tiles/*.pmtiles                  # precalculado
 science/notebooks/*.ipynb                 # Parte B, reproducible
 LICENSE (MIT) · CONTENT_LICENSE (CC BY 4.0) · CITATION.cff · AI_DISCLOSURE.md

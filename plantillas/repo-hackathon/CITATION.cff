@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "If you use this software or its data products, please cite it as below. Underlying datasets must be cited to their original providers (see references.bib)."
+title: "TODO: project name"
+type: software
+authors:
+  - name: "Lattices Team"
+license: MIT
+repository-code: "https://github.com/TODO/TODO"
+date-released: 2026-11-15
+keywords:
+  - planetary analogs
+  - Moon
+  - Mars
+  - open science
+  - NASA Space Apps Challenge 2026

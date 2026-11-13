@@ -55,7 +55,9 @@ Un solo motor de análogos con datos abiertos, **dividido en dos partes** (detal
 
 **Reglas desde el día 1:** sin mostrar menores · sin base de datos ni datos personales (sitio estático, sin cuentas, sin analítica) · solo datos abiertos · **trilingüe** (español + inglés + chino simplificado) · **cada dato con su fuente** · licencias OSI · nada de logos NASA · estética papel-cartón por capas hecha por nosotros (la imagen de cartón es solo referencia).
 
-**Stack propuesto:** Astro + Svelte + MDX con fuentes obligatorias + MapLibre/PMTiles + Motion (MIT) + PWA offline + GitHub Pages. Se descarta GSAP porque su licencia no es OSI.
+**Stack propuesto:** Astro + islas React + Tailwind + MDX con fuentes obligatorias + MapLibre/PMTiles + Motion y Hairline (MIT) + PWA offline + GitHub Pages. Se descarta GSAP porque su licencia no es OSI.
+
+**🚀 Día 1 (sáb 09:00):** seguir el [**Plan Maestro**](05_plan_ejecucion/07_plan_maestro_recursos_e_instalacion.md) y copiar la [**plantilla del repo nuevo**](plantillas/repo-hackathon/), que trae `CLAUDE.md`, `AI_DISCLOSURE.md`, `SECURITY.md` y un instalador de 16 skills fijadas a commits revisados.
 
 ---
 
@@ -199,6 +201,8 @@ En [`05_plan_ejecucion/04_desafios_globales_esperados.md`](05_plan_ejecucion/04_
 - [`04_desafios_globales_esperados.md`](05_plan_ejecucion/04_desafios_globales_esperados.md) — Los 7 desafíos globales científicos, técnicos y socioambientales y cómo los resolvemos.
 - [`05_motor_mundo_abierto_tri_pantalla.md`](05_plan_ejecucion/05_motor_mundo_abierto_tri_pantalla.md) — **Nuevo:** Especificación completa del **Motor Web de Mundo Abierto Tri-Pantalla (`🌑 Luna · 🌍 Tierra · 🔴 Marte`)** conmutable en **Horizontal (`1×3`)** y **Vertical (`3×1`)** sobre un único lienzo WebGL (`gl.scissor` + `NASA-AMMOS/3DTilesRendererJS` + `Martini`).
 - [`06_dos_partes_stack_motion_identidad.md`](05_plan_ejecucion/06_dos_partes_stack_motion_identidad.md) — **Nuevo:** división Parte A / Parte B, stack rápido con licencias verificadas, librerías de *motion* evaluadas, identidad papel-cartón (capas = curvas de nivel reales) y trilingüe + citas desde el día 1.
+- [`07_plan_maestro_recursos_e_instalacion.md`](05_plan_ejecucion/07_plan_maestro_recursos_e_instalacion.md) — **Nuevo:** evaluación de ~25 repos de skills, diseño y motion (qué usar y qué no), estilos visuales, cómo usar IA según las reglas "Super Intelligence", seguridad proporcional (ISO 27001 como referencia), stack y patrones, MVP P0/P1/P2 y cronograma de 48 h.
+- [`plantillas/repo-hackathon/`](plantillas/repo-hackathon/) — **Nuevo:** kit para arrancar el repo de construcción (reglas, declaración de IA, seguridad, cita e instalador de skills).
 
 ### `06_agentes_y_skills/`, `.agents/` y `99_fuentes/` — Escuadrón IA y Trazabilidad
 - [`AGENTS.md`](AGENTS.md) & [`06_agentes_y_skills/01_agentes_skills_propuestos.md`](06_agentes_y_skills/01_agentes_skills_propuestos.md) — Manual de los **6 Agentes Especialistas** (`.agents/agents/*`) y **4 Skills** (`.agents/skills/*`) listos para invocar en terminal (`agy`).
