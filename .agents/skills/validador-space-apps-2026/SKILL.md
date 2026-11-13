@@ -16,6 +16,9 @@ Fuentes de verdad (leer antes de evaluar; mandan sobre cualquier otro archivo):
 - [`00_desafio/03_rubrica_oficial_global_2026.md`](../../../00_desafio/03_rubrica_oficial_global_2026.md): rúbrica, puertas duras, campos, reglas de IA, desafío.
 - [`00_desafio/04_ganadores_2025_global_y_chile.md`](../../../00_desafio/04_ganadores_2025_global_y_chile.md): patrones ganadores.
 - [`00_desafio/05_lente_la_araucana_y_estrategia_doble_rol.md`](../../../00_desafio/05_lente_la_araucana_y_estrategia_doble_rol.md): lente local inferida, doble rol, ODS/carbono, identidad visual.
+- [`00_desafio/06_rubrica_nomada_usqai_y_cruce.md`](../../../00_desafio/06_rubrica_nomada_usqai_y_cruce.md): rúbrica Nómada (pitch local 3 min + 2 min) y cruce de las tres rúbricas.
+- [`00_desafio/07_pitch_storytelling_ganadores_y_logos.md`](../../../00_desafio/07_pitch_storytelling_ganadores_y_logos.md): patrones narrativos ganadores y política de logos (G11 incluye logos de La Araucana/UCN/Nómada sin permiso escrito).
+- [`05_plan_ejecucion/06_dos_partes_stack_motion_identidad.md`](../../../05_plan_ejecucion/06_dos_partes_stack_motion_identidad.md): restricciones del equipo (sin menores, sin datos personales, trilingüe, citas desde el día 1, licencias OSI de librerías).
 - [`plantilla_scorecard.md`](plantilla_scorecard.md): formato de salida obligatorio.
 
 ## Principios

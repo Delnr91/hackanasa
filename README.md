@@ -30,7 +30,7 @@
 
 Si recién entrás al repositorio, **no hace falta leer los 37 documentos de golpe**. Seguí esta ruta rápida para alinearnos hoy mismo y elegir qué construimos:
 
-0. **Antes de todo (Reglas del Juego 2026):** [`00_desafio/03_rubrica_oficial_global_2026.md`](00_desafio/03_rubrica_oficial_global_2026.md) (rúbrica y puertas duras), [`00_desafio/04_ganadores_2025_global_y_chile.md`](00_desafio/04_ganadores_2025_global_y_chile.md) y [`00_desafio/05_lente_la_araucana_y_estrategia_doble_rol.md`](00_desafio/05_lente_la_araucana_y_estrategia_doble_rol.md). Validá cualquier entregable con la skill [`validador-space-apps-2026`](.agents/skills/validador-space-apps-2026/SKILL.md).
+0. **Antes de todo (Reglas del Juego 2026):** [`00_desafio/03_rubrica_oficial_global_2026.md`](00_desafio/03_rubrica_oficial_global_2026.md) (rúbrica y puertas duras), [`00_desafio/04_ganadores_2025_global_y_chile.md`](00_desafio/04_ganadores_2025_global_y_chile.md) , [`00_desafio/05_lente_la_araucana_y_estrategia_doble_rol.md`](00_desafio/05_lente_la_araucana_y_estrategia_doble_rol.md), [`00_desafio/06_rubrica_nomada_usqai_y_cruce.md`](00_desafio/06_rubrica_nomada_usqai_y_cruce.md) y [`00_desafio/07_pitch_storytelling_ganadores_y_logos.md`](00_desafio/07_pitch_storytelling_ganadores_y_logos.md). Validá cualquier entregable con la skill [`validador-space-apps-2026`](.agents/skills/validador-space-apps-2026/SKILL.md) y armá el pitch con [`pitch-storytelling-space-apps`](.agents/skills/pitch-storytelling-space-apps/SKILL.md).
 1. **Minutos 0–3 (El Problema Exacto):** Leé [`00_desafio/01_brief_desafio.md`](00_desafio/01_brief_desafio.md) y cómo ganaron los campeones mundiales anteriores en [`00_desafio/02_anatomia_ganadores_globales.md`](00_desafio/02_anatomia_ganadores_globales.md).
 2. **Minutos 3–8 (Las 9 Propuestas y la Matriz de Decisión):** Revisá la tabla resumen acá abajo y el detalle en [`04_propuestas/01_propuestas_solucion.md`](04_propuestas/01_propuestas_solucion.md) + [`04_propuestas/02_matriz_evaluacion.md`](04_propuestas/02_matriz_evaluacion.md).
 3. **Minutos 8–12 (Nuestra Ventaja Injusta en Chile y el Mundo):** Mirá qué **nadie está abordando en Chile ni globalmente** en [`02_investigacion_global/08_brechas_chile_y_oportunidades_globales.md`](02_investigacion_global/08_brechas_chile_y_oportunidades_globales.md).
@@ -40,6 +40,22 @@ Si recién entrás al repositorio, **no hace falta leer los 37 documentos de gol
    - **Ciencia Planetaria / Pitch / Estrategia:** [`01_mckinsey/03_arbol_problemas_MECE.md`](01_mckinsey/03_arbol_problemas_MECE.md) + [`05_plan_ejecucion/04_desafios_globales_esperados.md`](05_plan_ejecucion/04_desafios_globales_esperados.md).
 
 > **Garantía de Reglas Space Apps:** Este repositorio contiene **cero líneas de código de la aplicación final**. Reúne exclusivamente investigación científica abierta, ecuaciones físicas, catálogos de APIs públicas, bibliografía revisada por pares y agentes/skills de apoyo permitidos antes del inicio oficial del hackathon.
+
+---
+
+## 🧭 Dirección en Curso (13-nov-2026) — Aún sin definir, en evaluación
+
+Un solo motor de análogos con datos abiertos, **dividido en dos partes** (detalle en [`05_plan_ejecucion/06_dos_partes_stack_motion_identidad.md`](05_plan_ejecucion/06_dos_partes_stack_motion_identidad.md)):
+
+| | 🅰️ **Parte A · Explorador** | 🅱️ **Parte B · Misión** |
+|---|---|---|
+| Compite en | Sede Antofagasta (Caja La Araucana + rúbrica NASA) | Juzgamiento global NASA |
+| Para quién | Aprendizaje para todas las edades en regiones (los niños son solo un ejemplo de producto) | Planificadores de misión, científicos y jueces SME |
+| Pitch | 3 min + 2 min de Q&A en español | Página en inglés + video de 30 s |
+
+**Reglas desde el día 1:** sin mostrar menores · sin base de datos ni datos personales (sitio estático, sin cuentas, sin analítica) · solo datos abiertos · **trilingüe** (ES + EN + tercer idioma por decidir) · **cada dato con su fuente** · licencias OSI · nada de logos NASA · estética papel-cartón por capas hecha por nosotros (la imagen de cartón es solo referencia).
+
+**Stack propuesto:** Astro + Svelte + MDX con fuentes obligatorias + MapLibre/PMTiles + Motion (MIT) + PWA offline + GitHub Pages. Se descarta GSAP porque su licencia no es OSI.
 
 ---
 
@@ -145,7 +161,9 @@ En [`05_plan_ejecucion/04_desafios_globales_esperados.md`](05_plan_ejecucion/04_
 - [`02_anatomia_ganadores_globales.md`](00_desafio/02_anatomia_ganadores_globales.md) — Ingeniería inversa de *Global Winners* recientes y estrategia dual Local + Global.
 - [`03_rubrica_oficial_global_2026.md`](00_desafio/03_rubrica_oficial_global_2026.md) — **Nuevo · fuente de verdad:** rúbrica oficial 2026 (5 criterios, 1–5), embudo y fechas, 12 puertas duras de elegibilidad, reglas de IA ("Super Intelligence"), campos de la página, guion del video de 30 s y los 14 desafíos 2026.
 - [`04_ganadores_2025_global_y_chile.md`](00_desafio/04_ganadores_2025_global_y_chile.md) — **Nuevo:** los 10 ganadores globales 2025, menciones latinoamericanas, ganadores locales en Chile 2024–2025 y 15 tips accionables.
-- [`05_lente_la_araucana_y_estrategia_doble_rol.md`](00_desafio/05_lente_la_araucana_y_estrategia_doble_rol.md) — **Nuevo:** lente local de Caja La Araucana (inferida y con evidencia), cruce con la rúbrica NASA, producto educativo de doble rol, dos pitches, ODS/carbono e identidad papel-cartón sin riesgo de descalificación.
+- [`05_lente_la_araucana_y_estrategia_doble_rol.md`](00_desafio/05_lente_la_araucana_y_estrategia_doble_rol.md) — **Nuevo:** lente local de Caja La Araucana (inferida y con evidencia), cruce con la rúbrica NASA, producto educativo de doble rol, dos pitches, ODS/carbono e identidad papel-cartón sin riesgo de descalificación. Incluye hallazgos STEAM (becas Technovation Girls, becas STEM-STEAM) y los ODS 8, 9 y 10 que destaca Sustainable Fitch.
+- [`06_rubrica_nomada_usqai_y_cruce.md`](00_desafio/06_rubrica_nomada_usqai_y_cruce.md) — **Nuevo:** bases y rúbrica del programa Nómada (USQAI-UCN), donde el equipo ganó 1er lugar regional; cruce con NASA y La Araucana.
+- [`07_pitch_storytelling_ganadores_y_logos.md`](00_desafio/07_pitch_storytelling_ganadores_y_logos.md) — **Nuevo:** cómo contaron su historia los 10 ganadores 2025, fórmula del Summary, pitch de alto nivel y **qué logos se pueden y no se pueden usar**.
 
 ### `01_mckinsey/` — Estructuración Estratégica ("Afilar el Hacha")
 - [`01_metodo_mckinsey.md`](01_mckinsey/01_metodo_mckinsey.md) — Proceso de 7 pasos McKinsey + Pirámide de Minto (SCR).
@@ -180,6 +198,7 @@ En [`05_plan_ejecucion/04_desafios_globales_esperados.md`](05_plan_ejecucion/04_
 - [`03_riesgos_y_mitigacion.md`](05_plan_ejecucion/03_riesgos_y_mitigacion.md) — Gestión de riesgos y defensa ante preguntas críticas del jurado.
 - [`04_desafios_globales_esperados.md`](05_plan_ejecucion/04_desafios_globales_esperados.md) — Los 7 desafíos globales científicos, técnicos y socioambientales y cómo los resolvemos.
 - [`05_motor_mundo_abierto_tri_pantalla.md`](05_plan_ejecucion/05_motor_mundo_abierto_tri_pantalla.md) — **Nuevo:** Especificación completa del **Motor Web de Mundo Abierto Tri-Pantalla (`🌑 Luna · 🌍 Tierra · 🔴 Marte`)** conmutable en **Horizontal (`1×3`)** y **Vertical (`3×1`)** sobre un único lienzo WebGL (`gl.scissor` + `NASA-AMMOS/3DTilesRendererJS` + `Martini`).
+- [`06_dos_partes_stack_motion_identidad.md`](05_plan_ejecucion/06_dos_partes_stack_motion_identidad.md) — **Nuevo:** división Parte A / Parte B, stack rápido con licencias verificadas, librerías de *motion* evaluadas, identidad papel-cartón (capas = curvas de nivel reales) y trilingüe + citas desde el día 1.
 
 ### `06_agentes_y_skills/`, `.agents/` y `99_fuentes/` — Escuadrón IA y Trazabilidad
 - [`AGENTS.md`](AGENTS.md) & [`06_agentes_y_skills/01_agentes_skills_propuestos.md`](06_agentes_y_skills/01_agentes_skills_propuestos.md) — Manual de los **6 Agentes Especialistas** (`.agents/agents/*`) y **4 Skills** (`.agents/skills/*`) listos para invocar en terminal (`agy`).

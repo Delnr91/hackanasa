@@ -31,6 +31,9 @@
 | "poner en el centro a las personas y generar soluciones que aporten valor a sus vidas y bienestar" | Sepúlveda (Emol, oct-2025) | El "So what?" debe responder: ¿mejora la vida de alguien? |
 | Participa el **PM de Educación y Pro Empleo** en la alianza | Tour Innovación, nov-2026 | **Empleabilidad/habilidades** como resultado deseable |
 | American Spaces: inglés, estudio y emprendimiento | Embajada EE. UU. | Proyecto **bilingüe** suma (y la entrega global igual exige inglés) |
+| **300 becas Technovation Girls** (programación e IA para niñas y adolescentes de 13 a 17 años) | Prensa, 2025–2026 | **STEAM con foco de género** es una línea activa de la Caja |
+| **Becas STEM-STEAM para mujeres** (3.ª versión) dentro de su programa de becas | Prensa, 2026 | Equipo diverso y contenidos que inviten a mujeres a STEM suman narrativa |
+| ODS destacados por Sustainable Fitch: **ODS 8, 9 y 10**; adherida al **Pacto Global** de la ONU | Sustainable Fitch / Pacto Global Chile | Hablar en **su** idioma ODS: trabajo decente, innovación, reducción de desigualdades |
 
 ---
 
@@ -89,6 +92,7 @@ flowchart TB
 ## 6. ODS (Agenda 2030) y Huella de Carbono: qué es obligatorio y qué es diferencial
 
 **Verificado:** ni la *Judging Guide* ni la *Submission Guide* 2026 exigen ODS ni huella de carbono. **No son criterios oficiales.**
+**Verificado (fuentes secundarias):** La Araucana adhiere al Pacto Global y Sustainable Fitch destaca su aporte a los **ODS 8, 9 y 10** → abrir la diapositiva ODS con **esos tres** y sumar ODS 4 y 13 como propios del proyecto. Sus **bases propias del hackatón 2026 no se pudieron leer**: `laaraucana.cl/hackaton-laaraucana-2026` tiene protección anti-bots y no carga ni en navegador automatizado; hay que pedirlas a la Local Lead.
 **Inferido:** La Araucana tiene una **Gerencia de Impacto Social y Sostenibilidad** que participa en el evento, así que sostenibilidad y ODS probablemente suman ante el jurado local, dentro de *Impact*.
 
 | ODS | Cómo lo toca la plataforma | Métrica simple y honesta |
@@ -135,3 +139,6 @@ flowchart TB
 - [Emol, 10-oct-2025](https://www.emol.com/noticias/Tendencias/2025/10/10/1180131/hackaton-la-araucana-nasa.html) · [UCN 2025](https://www.ucn.cl/comunicaciones-ucn/noticias/abiertas-las-postulaciones-al-nasa-space-apps-challenge-que-se-realizara-en-la-ucn/)
 - [Judging & Awards Guide 2026](https://www.spaceappschallenge.org/resources/judging-awards-guide/) · [Project Submission Guide 2026](https://www.spaceappschallenge.org/resources/project-submission-guide/)
 - [Honorable Mentions 2025 (FarmHubGlobal, Home Alone)](https://www.spaceappschallenge.org/2025/awards/honorable-mentions/)
+- [Portal Educa: Caja La Araucana y Technovation Girls, becas de programación](https://portaleduca.cl/ninas-en-stem-caja-la-araucana-y-technovation-girls-lanzan-mas-de-300-becas-de-programacion-en-valparaiso-y-biobio/) · [El Nortero: becas La Araucana 2026](https://www.elnortero.cl/noticia/becas-de-estudio-la-araucana-2026/becas-de-hasta-170-mil-para-estudiantes-destacados-asi-se-)
+- [Pacto Global Chile: La Araucana y Sustainable Fitch](https://www.pactoglobal.cl/la-araucana-obtiene-la-nota-mas-alta-en-el-ambito-social-de-latinoamerica-en-clasificacion-sustainable-fitch/) · [UN Global Compact: La Araucana C.C.A.F.](https://unglobalcompact.org/participation/report/cop/detail/481448)
+- [Bases y rúbrica Nómada (cruce de rúbricas)](06_rubrica_nomada_usqai_y_cruce.md)
