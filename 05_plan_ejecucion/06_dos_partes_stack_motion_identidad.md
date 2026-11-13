@@ -42,7 +42,7 @@ Versiones verificadas en el registro npm el 13-nov-2026.
 
 | Capa | Elección | Versión / licencia | Por qué |
 |---|---|---|---|
-| Sitio | **Astro** (salida estática) | 7.4 · MIT | Rutas i18n nativas (`/es/ /en/ /pt/`), *content collections* tipadas, HTML casi sin JS (bajo carbono) |
+| Sitio | **Astro** (salida estática) | 7.4 · MIT | Rutas i18n nativas (`/es/ /en/ /zh/`), *content collections* tipadas, HTML casi sin JS (bajo carbono) |
 | Islas interactivas | **Svelte 5** vía `@astrojs/svelte` | 5.57 · MIT | Componentes livianos para mapas y misiones |
 | Contenido | **MDX** (`@astrojs/mdx`) con esquema que **exige `sources`** en cada ficha | 8.1 · MIT | "Citar desde el día 1" lo garantiza el *build*: sin fuente, no compila |
 | Citas | **rehype-citation** + archivo `references.bib`/CSL-JSON; **citation-js** para la UI | 2.3 · MIT / 0.9 · MIT | Bibliografía automática con formato estándar (APA/Chicago) |
@@ -60,11 +60,19 @@ Versiones verificadas en el registro npm el 13-nov-2026.
 
 **Privacidad por diseño:** sin cookies, sin analítica, sin cuentas, sin formularios, sin base de datos. Si una misión guarda progreso, que sea en `localStorage` **del propio navegador**, opcional, borrable con un botón y nunca enviado a ningún servidor.
 
-**Trilingüe desde el día 1:**
-- **Español** (sede y La Araucana) + **inglés** (obligatorio para NASA) + **tercer idioma por decidir**:
-  - **Portugués:** la Agencia Espacial Brasileña es socia 2026 y Brasil es la comunidad Space Apps más grande de Latinoamérica → refuerza *Global Connection*.
-  - **Chino:** coincide con los resúmenes que ya tiene `nasa-ciencia-abierta`. Es un idioma, no una afiliación, así que no choca con la política China de NASA; igual, nada de colaborar con entidades chinas.
-- Toda traducción hecha con IA se **declara** (regla "Super Intelligence") y la revisa una persona.
+**Trilingüe desde el día 1 — DECIDIDO (13-nov-2026): español · inglés · chino simplificado**
+| Código | Idioma | Rol |
+|---|---|---|
+| `es` | Español | Idioma de la sede, de La Araucana y del pitch local; **idioma fuente** de los contenidos |
+| `en` | Inglés | **Obligatorio** para la página de proyecto y el material enlazado que ve NASA |
+| `zh-Hans` | Chino simplificado (rutas `/zh/`) | Coherente con la guía en chino que ya tiene `nasa-ciencia-abierta`; amplía el alcance global (*Global Connection*) |
+
+Reglas del idioma chino:
+- Es un **idioma, no una afiliación**: no choca con la política China de NASA. Igual, **cero colaboración o coordinación con entidades chinas** (universidades, agencias o empresas) y nada de registrarse en portales de datos del gobierno chino para este proyecto.
+- Tipografía: **Noto Sans SC** (Fontsource 5.3 · OFL-1.1), cargada **solo en `/zh/`** y con subconjunto de caracteres para no castigar el peso de las páginas en español e inglés (carbono).
+- `lang="zh-Hans"` en el HTML, fechas y números con `Intl` según el idioma, y términos científicos con el original en inglés entre paréntesis la primera vez (p. ej. 斜长岩 (anorthosite)).
+- La traducción hecha con IA se **declara** (regla "Super Intelligence") y la revisa una persona con buen nivel de chino antes de publicarla; si no hay revisor, la página lo indica.
+- La demo de 30 s y la página para NASA siguen en **inglés**; el chino es parte del producto, no de la entrega.
 
 ---
 
@@ -129,10 +137,10 @@ Versiones verificadas en el registro npm el 13-nov-2026.
 ## 6. Esqueleto de carpetas propuesto (para el sábado)
 ```
 app/
-  src/content/analogos/{es,en,pt}/*.mdx   # fichas con frontmatter: sources[], datasets[], dimensiones, brecha
-  src/content/misiones/{es,en,pt}/*.mdx   # Parte A
+  src/content/analogos/{es,en,zh}/*.mdx   # fichas con frontmatter: sources[], datasets[], dimensiones, brecha
+  src/content/misiones/{es,en,zh}/*.mdx   # Parte A
   src/data/references.bib                 # bibliografía única
-  src/i18n/{es,en,pt}.json
+  src/i18n/{es,en,zh}.json
   src/components/PaperLayers.svelte       # capas desde curvas de nivel (SVG)
   src/components/AnalogMap.svelte         # MapLibre + PMTiles
   public/tiles/*.pmtiles                  # precalculado

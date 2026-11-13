@@ -53,7 +53,7 @@ Un solo motor de análogos con datos abiertos, **dividido en dos partes** (detal
 | Para quién | Aprendizaje para todas las edades en regiones (los niños son solo un ejemplo de producto) | Planificadores de misión, científicos y jueces SME |
 | Pitch | 3 min + 2 min de Q&A en español | Página en inglés + video de 30 s |
 
-**Reglas desde el día 1:** sin mostrar menores · sin base de datos ni datos personales (sitio estático, sin cuentas, sin analítica) · solo datos abiertos · **trilingüe** (ES + EN + tercer idioma por decidir) · **cada dato con su fuente** · licencias OSI · nada de logos NASA · estética papel-cartón por capas hecha por nosotros (la imagen de cartón es solo referencia).
+**Reglas desde el día 1:** sin mostrar menores · sin base de datos ni datos personales (sitio estático, sin cuentas, sin analítica) · solo datos abiertos · **trilingüe** (español + inglés + chino simplificado) · **cada dato con su fuente** · licencias OSI · nada de logos NASA · estética papel-cartón por capas hecha por nosotros (la imagen de cartón es solo referencia).
 
 **Stack propuesto:** Astro + Svelte + MDX con fuentes obligatorias + MapLibre/PMTiles + Motion (MIT) + PWA offline + GitHub Pages. Se descarta GSAP porque su licencia no es OSI.
 
