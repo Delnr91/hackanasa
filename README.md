@@ -26,6 +26,9 @@
 
 ---
 
+> ### 🚀 ¿Empieza el hackathon? Abre primero [**INICIO_DIA_1.md**](INICIO_DIA_1.md)
+> Paso a paso para el sábado 14-nov: checklist de la noche anterior, preguntas a la Local Lead, comandos para crear y conectar el repo nuevo, capa de datos abiertos por dimensión, cronograma con cortes y la idea-fuerza de la *lattice* ("la ciencia es un idioma mundial").
+
 ## ⚡ Guía de Lectura en 15 Minutos para el Equipo
 
 Si recién entrás al repositorio, **no hace falta leer los 37 documentos de golpe**. Seguí esta ruta rápida para alinearnos hoy mismo y elegir qué construimos:
