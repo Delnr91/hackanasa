@@ -70,6 +70,8 @@ flowchart LR
 
 ## 4. Datos NASA disponibles para el desafío
 
+> 📄 Documento completo (inventario, preparación, estadística, limitaciones y citas): [`02_investigacion_global/11_paper_datos_desafio.md`](02_investigacion_global/11_paper_datos_desafio.md)
+
 | Para qué | Producto exacto | Dónde | Notas |
 |---|---|---|---|
 | **Tierra · relieve (núcleo)** | **NASADEM_HGT v001** | NASA Earthdata Search (LP DAAC) · Google Earth Engine `NASA/NASADEM_HGT/001` | Requiere cuenta Earthdata (gratis). ~30 m |

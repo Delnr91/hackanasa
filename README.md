@@ -117,7 +117,7 @@ Detalle: [rúbrica NASA](00_desafio/03_rubrica_oficial_global_2026.md) · [La Ar
 
 **Flujo:** `NASADEM + CTX DEM Jezero → Python/QGIS → JSON, GeoJSON y mapas preparados → app estática`. Todo se procesa **antes** de la demo; no hay servidor.
 
-Catálogo completo: [`02_investigacion_global/04`](02_investigacion_global/04_datasets_recursos_libres.md) · [`09`](02_investigacion_global/09_apis_multiagencia_recursos_construccion.md).
+**Paper de datos** (fichas verificadas, preparación, estadística y citas): [`02_investigacion_global/11`](02_investigacion_global/11_paper_datos_desafio.md) · Catálogo completo: [`02_investigacion_global/04`](02_investigacion_global/04_datasets_recursos_libres.md) · [`09`](02_investigacion_global/09_apis_multiagencia_recursos_construccion.md).
 
 ---
 
