@@ -52,6 +52,8 @@
 | Dom 12:00 | Video 30 s + pitch 3 min | cronometrados | *"Usa pitch-storytelling-space-apps."* |
 | **Dom ≤ 20:00** | **Envío final** | captura del banner de confirmación | *"validador modo pre-envío: cero FALLA."* |
 
+**3D mobile-first** (inspirado en ER-6 Terrain Explorer): empieza **solo después** de tener la comparación real. Plan y pedidos para agentes en [`05_plan_ejecucion/09_experiencia_3d_mobile_first.md`](05_plan_ejecucion/09_experiencia_3d_mobile_first.md).
+
 **Regla de recorte:** si a las 18:00 del sábado no hay P0, se elimina todo P1 y P2. Nunca se inventan datos.
 
 ---
