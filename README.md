@@ -11,7 +11,7 @@
 **Comparar con evidencia → aprender con los resultados → planificar un ensayo.**
 *La ciencia es un idioma mundial: un kelvin es un kelvin en español, inglés o chino.*
 
-[**🚀 Empezar el Día 1**](INICIO_DIA_1.md) · [**📏 Rúbrica oficial 2026**](00_desafio/03_rubrica_oficial_global_2026.md) · [**🏛️ La Araucana**](00_desafio/05_lente_la_araucana_y_estrategia_doble_rol.md) · [**🧭 Plan maestro**](05_plan_ejecucion/07_plan_maestro_recursos_e_instalacion.md) · [**🧪 Aporte de Isabeau**](aportes/isabeau/REVISION.md)
+[**🧭 PIZARRA (en competencia)**](PIZARRA.md) · [**🗺️ Arquitectura Excalidraw**](05_plan_ejecucion/08_arquitectura_proyecto.excalidraw) · [**🚀 Día 1**](INICIO_DIA_1.md) · [**📏 Rúbrica oficial 2026**](00_desafio/03_rubrica_oficial_global_2026.md) · [**🏛️ La Araucana**](00_desafio/05_lente_la_araucana_y_estrategia_doble_rol.md) · [**🧭 Plan maestro**](05_plan_ejecucion/07_plan_maestro_recursos_e_instalacion.md) · [**🧪 Aporte de Isabeau**](aportes/isabeau/REVISION.md)
 
 </div>
 
